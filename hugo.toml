@@ -32,14 +32,14 @@ enableRobotsTXT = true
   profile_pic = "images/profile.jpg"  # 已添加您的个人头像图片
   description = "Leo的个人技术博客，专注于编程思考、系统设计、开源贡献和技术创新。分享从实践中获得的深度见解。"
   footer = "&copy; [Leo的技术博客](https://rpai.work)"
-  banner = "🚀 探索技术世界的无限可能 · 记录每一个成长瞬间"
+  banner = "🚀 以人为本的人机共生智能协作关系才是未来"
 
 # 中文语言参数
 [languages.zh.params]
   subtitle = "深度思考 · 技术分享 · 个人成长"
   description = "Leo的个人技术博客，专注于编程思考、系统设计、开源贡献和技术创新。分享从实践中获得的深度见解。"
   footer = "&copy; [Leo的技术博客](https://rpai.work)"
-  banner = "🚀 探索技术世界的无限可能 · 记录每一个成长瞬间"
+  banner = "🚀 以人为本的人机共生智能协作关系才是未来"
 
   # Site descriptions for different sections - Chinese
   description_timeline = "技术学习与实践的时光记录，每一个重要时刻都不想错过"
