@@ -1,0 +1,214 @@
+baseURL = "https://rpai.work"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+title = "Leo的技术博客"
+theme = "hugo-techie-personal"
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+
+# 多语言配置
+[languages]
+  [languages.zh]
+    languageCode = "zh-cn"
+    languageName = "中文"
+    title = "Leo的技术博客"
+    weight = 1
+
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    title = "Leo's Tech Blog"
+    weight = 2
+
+# Enable taxonomies - 完全按照主题作者的配置
+[taxonomies]
+  types = "type"
+  focus = "focus"
+  activities = "activity"
+
+# Site parameters - 1:1复刻作者的配置结构
+[params]
+  subtitle = "深度思考 · 技术分享 · 个人成长"
+  profile_pic = "images/profile.jpg"  # 已添加您的个人头像图片
+  description = "Leo的个人技术博客，专注于编程思考、系统设计、开源贡献和技术创新。分享从实践中获得的深度见解。"
+  footer = "&copy; [Leo的技术博客](https://rpai.work)"
+  banner = "🚀 探索技术世界的无限可能 · 记录每一个成长瞬间"
+
+# 中文语言参数
+[languages.zh.params]
+  subtitle = "深度思考 · 技术分享 · 个人成长"
+  description = "Leo的个人技术博客，专注于编程思考、系统设计、开源贡献和技术创新。分享从实践中获得的深度见解。"
+  footer = "&copy; [Leo的技术博客](https://rpai.work)"
+  banner = "🚀 探索技术世界的无限可能 · 记录每一个成长瞬间"
+
+  # Site descriptions for different sections - Chinese
+  description_timeline = "技术学习与实践的时光记录，每一个重要时刻都不想错过"
+  description_projects = "个人项目与开源贡献展示，用代码改变世界"
+  description_gadgets = "开发工具与设备使用体验，工欲善其事必先利其器"
+  description_talk = "技术分享与演讲记录，知识因分享而更有价值"
+  description_training = "培训课程和工作坊，帮助更多人成长"
+  description_panel = "技术讨论和圆桌会议，思想碰撞产生火花"
+  description_discussion = "一对一访谈和深度对话，探索技术背后的故事"
+  description_tool = "工具演示和技术展示，发现提高效率的秘密武器"
+  description_quote = "媒体引用和专家评价，来自外界的认可"
+  description_ctf = "CTF竞赛和安全研究成果，在攻防中成长"
+  description_recognition = "奖项和荣誉，努力得到的认可"
+  description_article = "外部平台发表的文章，扩大技术影响力"
+  description_curator = "活动策划和组织，推动技术社区发展"
+  description_whitepaper = "技术白皮书和研究报告，深度技术思考"
+
+  # Navigation labels - Chinese
+  [languages.zh.params.navigation]
+    [languages.zh.params.navigation.labels]
+      home = "首页"
+      projects = "项目"
+      gadgets = "工具"
+      timeline = "时光轴"
+      about = "关于"
+      back_to = "返回"
+      previous = "上一篇"
+      next = "下一篇"
+      currently_used = "正在使用"
+      upcoming = "即将使用"
+      discontinued = "已停用"
+      discontinued_projects = "已停用项目"
+      archived_device = "⚠️ 已归档设备"
+      planned_device = "📋 计划中的设备"
+
+# 英文语言参数
+[languages.en.params]
+  subtitle = "Deep Thinking · Tech Sharing · Personal Growth"
+  description = "Leo's personal tech blog focusing on programming insights, system design, open source contributions, and technological innovation. Sharing deep insights from practice."
+  footer = "&copy; [Leo's Tech Blog](https://rpai.work)"
+  banner = "🚀 Explore the Infinite Possibilities of Tech · Record Every Growth Moment"
+
+  # Site descriptions for different sections - English
+  description_timeline = "A chronological journey through technical learning and practice, capturing every important moment"
+  description_projects = "Personal projects and open source contributions, changing the world with code"
+  description_gadgets = "Development tools and device experiences, the right tool for the right job"
+  description_talk = "Tech sharing and presentation records, knowledge gains value through sharing"
+  description_training = "Training courses and workshops, helping more people grow"
+  description_panel = "Technical discussions and roundtables, ideas spark from collision"
+  description_discussion = "One-on-one interviews and deep conversations, exploring stories behind technology"
+  description_tool = "Tool demonstrations and showcases, discovering secrets to improve efficiency"
+  description_quote = "Media citations and expert reviews, recognition from the outside world"
+  description_ctf = "CTF competitions and security research, growing through offense and defense"
+  description_recognition = "Awards and honors, recognition for hard work"
+  description_article = "Articles published on external platforms, expanding technological influence"
+  description_curator = "Event curation and organization, driving tech community development"
+  description_whitepaper = "Technical whitepapers and research reports, deep technical thinking"
+
+  # Navigation labels - English
+  [languages.en.params.navigation]
+    [languages.en.params.navigation.labels]
+      home = "Home"
+      projects = "Projects"
+      gadgets = "Gadgets"
+      timeline = "Timeline"
+      about = "About"
+      back_to = "Back to"
+      previous = "Previous"
+      next = "Next"
+      currently_used = "Currently Used"
+      upcoming = "Upcoming"
+      discontinued = "Discontinued"
+      discontinued_projects = "Discontinued Projects"
+      archived_device = "⚠️ Archived Device"
+      planned_device = "📋 Planned Device"
+
+  # Social links for home page - 作者的完整社交配置
+  [params.social_links]
+    github_url = "https://github.com/leodknuth"
+    # twitter_url = "https://twitter.com/your_twitter"
+    # linkedin_url = "https://linkedin.com/in/your_linkedin"
+    # mastodon_url = "https://mastodon.social/@your_mastodon"
+    # mastodon_verify = "https://mastodon.social/@your_mastodon"
+
+  # Work in progress notifications - 作者的完整配置
+  [params.work_in_progress]
+    enabled = true
+    default_message = "此内容正在更新和完善中，请稍后查看完整版本。"
+    default_title = "🚧 正在更新中"
+    exclude_statuses = ["discontinued", "archived", "completed", "finished"]
+
+    [params.work_in_progress.types]
+      updating = { title = "🚧 正在更新中", message = "此内容正在更新和完善中，请稍后查看完整版本。" }
+      incomplete = { title = "📝 内容待完善", message = "此页面包含部分信息，将在后续补充更多内容。" }
+      review = { title = "🔍 审核中", message = "此内容正在审核中，可能会有变动，引用时请注意。" }
+      placeholder = { title = "📋 占位页面", message = "这是一个占位页面，内容将在未来添加。" }
+
+  # Navigation system - 作者的完整导航配置
+  [params.navigation]
+    enable_breadcrumbs = true
+    enable_prev_next = true
+    breadcrumb_separator = "›"
+    show_section_context = true
+
+  # Timeline configuration
+  [params.timeline]
+    show_activity_icons = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitioncategory = true
+      footnote = true
+      linkify = false
+      strikethrough = true
+      table = true
+      taskcategory = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["txt"]
+
+# 中文菜单
+[[languages.zh.menu.main]]
+  name = "时光轴"
+  url = "/timeline/"
+  weight = 2
+
+[[languages.zh.menu.main]]
+  name = "项目"
+  url = "/projects/"
+  weight = 3
+
+[[languages.zh.menu.main]]
+  name = "工具"
+  url = "/gadget/"
+  weight = 4
+
+[[languages.zh.menu.main]]
+  name = "关于"
+  url = "/about/"
+  weight = 5
+
+# 英文菜单
+[[languages.en.menu.main]]
+  name = "Timeline"
+  url = "/timeline/"
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 3
+
+[[languages.en.menu.main]]
+  name = "Gadgets"
+  url = "/gadget/"
+  weight = 4
+
+[[languages.en.menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 5
