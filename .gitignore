@@ -30,3 +30,7 @@ npm-debug.log*
 # 备份文件
 *.backup
 *.orig
+
+# 内部维护指南
+AI_MAINTENANCE_GUIDE.md
+博客内容维护指南.md
