@@ -1,0 +1,3 @@
+[submodule "themes/hugo-techie-personal"]
+	path = themes/hugo-techie-personal
+	url = https://github.com/anantshri/hugo-techie-personal
